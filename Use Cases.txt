@@ -1,14 +1,2 @@
-Use Cases
-
-
-1. Blood Donation
-
-
-2. 2nd 
-
-3. 3rd use case headig
-
-
-
-
-4. 4th use case heading
+Blood Donation:
+In blood donation module first we login to the system. For registration of the donor the form completeness  will be checked if the form is complete the donor will be registered in the system, or if form is incomplete it will be returned back to the applicant, then updated application will be received and then the process of form completeness will be repeated. After the registration of the donor, the age criteria will be checked. If the age criteria is not fulfilled cancel the process. If age criteria fulfilled check the donor's physical and health history. If health or physical history is  good check blood type otherwise cancel  the process. After the checking of blood type the donor is now allowed to donate blood.
