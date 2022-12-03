@@ -4,8 +4,8 @@ Use Cases
 1. Blood Donation
 
 
-2. Blood request
-In the blood request module first we will receive a request from hospital for blood. Then it will check the inventory for blood availability. If the blood is not available it will cancel the request, the request will be cancelled then. Or if the blood is available it will confirm the request, then it will create an invoice and deliver the blood, the blood will be delivered then.
+2. Blood Request
+In the Blood Request module first we will receive a request from hospital for blood. Then it will check the inventory for blood availability. If the blood is not available it will cancel the request, the request will be cancelled then. Or if the blood is available it will confirm the request, then it will create an invoice and deliver the blood, the blood will be delivered then.
 
 
 3.Inventory management
