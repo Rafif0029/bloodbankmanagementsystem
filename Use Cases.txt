@@ -1,6 +1,4 @@
-Blood Donation:
-In blood donation module first we login to the system. For registration of the donor the form completeness  will be checked if the form is complete the donor will be registered in the system, or if form is incomplete it will be returned back to the applicant, then updated application will be received and then the process of form completeness will be repeated. After the registration of the donor, the age criteria will be checked. If the age criteria is not fulfilled cancel the process. If age criteria fulfilled check the donor's physical and health history. If health or physical history is  good check blood type otherwise cancel  the process. After the checking of blood type the donor is now allowed to donate blood.
-Inventory management
+Inventory management:
 In the inventory management module when blood will be received from the donor it will purify the blood and  set the blood quantity and then stock the blood.
-Shift management for staff
+Shift management for staff:
 In shift management module we will login to the system then count the number of staff members, then schedule shift allocation, send mail to staff. If any staff is not available then replace staff member to another member or if available  Allot them duties, then allot the time and the shift will be managed.
