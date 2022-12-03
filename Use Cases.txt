@@ -8,10 +8,8 @@ Use Cases
 In the blood request module first we will receive a request from hospital for blood. Then it will check the inventory for blood availability. If the blood is not available it will cancel the request, the request will be cancelled then. Or if the blood is available it will confirm the request, then it will create an invoice and deliver the blood, the blood will be delivered then.
 
 
+3.Inventory management
+In the inventory management module when blood will be received from the donor it will purify the blood and  set the blood quantity and then stock the blood.
 
-3. 3rd use case headig
-
-
-
-
-4. 4th use case heading
+4.Shift management for staff
+In shift management module we will login to the system then count the number of staff members, then schedule shift allocation, send mail to staff. If any staff is not available then replace staff member to another member or if available  Allot them duties, then allot the time and the shift will be managed.
