@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Use Cases
 
 
@@ -14,9 +13,3 @@ In the inventory management module when blood will be received from the donor it
 
 4.Shift management for staff
 In shift management module we will login to the system then count the number of staff members, then schedule shift allocation, send mail to staff. If any staff is not available then replace staff member to another member or if available  Allot them duties, then allot the time and the shift will be managed.
-=======
-Inventory management:
-    In the inventory management module when blood will be received from the donor it will purify the blood and set the blood quantity and then stock the blood.
-Shift management for staff:
-    In shift management module we will login to the system then count the number of staff members, then schedule shift allocation, send mail to staff. If any staff is not available then replace staff member to another member or if available allot them duties, then allot the time and the shift will be managed.
->>>>>>> origin/mahwish's_branch
