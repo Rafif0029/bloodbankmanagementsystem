@@ -56,11 +56,11 @@
    <ns1:parameter qname="ns2:medicalCondition" type="xsd:string"/>
   </ns1:operation>
   <ns1:parameter name="allowedMethods" value="donorRegistration"/>
-  <ns1:parameter name="wsdlPortType" value="Donor"/>
   <ns1:parameter name="typeMappingVersion" value="1.2"/>
-  <ns1:parameter name="schemaQualified" value="http://main"/>
-  <ns1:parameter name="wsdlServicePort" value="Donor"/>
+  <ns1:parameter name="wsdlPortType" value="Donor"/>
   <ns1:parameter name="className" value="main.Donor"/>
+  <ns1:parameter name="wsdlServicePort" value="Donor"/>
+  <ns1:parameter name="schemaQualified" value="http://main"/>
   <ns1:parameter name="wsdlTargetNamespace" value="http://main"/>
   <ns1:parameter name="wsdlServiceElement" value="DonorService"/>
  </ns1:service>

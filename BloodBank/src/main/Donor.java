@@ -28,7 +28,7 @@ public class Donor {
 public String donorRegistration(String name, String address,String bloodType, String phone,int quantity,String medicalCondition) {
 
 if(!checkInventory(bloodType)) {
-return "Plz enter the valid bloodtype";
+return "Plz enter  valid bloodtype";
 }
 
 if(checkHealthCondition(medicalCondition)) {
@@ -55,14 +55,14 @@ try{
 	 return "donor Registered";
 	} catch(Exception e)
 	{
-	System.out.println(e);
+	return "Plz enter correct data";
 	}
 }
 else
 return "Registration Canceled because of disease";
 
 
-return "err";
+
 
 }
 
