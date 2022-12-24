@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://main" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://main" xmlns:intf="http://main" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://main" xmlns="http://www.w3.org/2001/XMLSchema">
+   <element name="acceptorRegistration">
+    <complexType>
+     <sequence>
+      <element name="name" type="xsd:string"/>
+      <element name="address" type="xsd:string"/>
+      <element name="bloodType" type="xsd:string"/>
+      <element name="phone" type="xsd:string"/>
+      <element name="quantity" type="xsd:int"/>
+      <element name="medicalCondition" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="acceptorRegistrationResponse">
+    <complexType>
+     <sequence>
+      <element name="acceptorRegistrationReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="acceptorRegistrationRequest">
+
+      <wsdl:part element="impl:acceptorRegistration" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="acceptorRegistrationResponse">
+
+      <wsdl:part element="impl:acceptorRegistrationResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="Acceptor">
+
+      <wsdl:operation name="acceptorRegistration">
+
+         <wsdl:input message="impl:acceptorRegistrationRequest" name="acceptorRegistrationRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:acceptorRegistrationResponse" name="acceptorRegistrationResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="AcceptorSoapBinding" type="impl:Acceptor">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="acceptorRegistration">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="acceptorRegistrationRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="acceptorRegistrationResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="AcceptorService">
+
+      <wsdl:port binding="impl:AcceptorSoapBinding" name="Acceptor">
+
+         <wsdlsoap:address location="http://localhost:8080/BloodBank/services/Acceptor"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

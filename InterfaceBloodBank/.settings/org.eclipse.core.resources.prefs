@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//src/main/Acceptor.java=UTF-8
+encoding//src/main/AcceptorService.java=UTF-8
+encoding//src/main/AcceptorServiceLocator.java=UTF-8
+encoding//src/main/AcceptorSoapBindingStub.java=UTF-8
+encoding//src/main/Donor.java=UTF-8
+encoding//src/main/DonorService.java=UTF-8
+encoding//src/main/DonorServiceLocator.java=UTF-8
+encoding//src/main/DonorSoapBindingStub.java=UTF-8
+encoding//src/main/ShiftManagement.java=UTF-8
+encoding//src/main/ShiftManagementService.java=UTF-8
+encoding//src/main/ShiftManagementServiceLocator.java=UTF-8
+encoding//src/main/ShiftManagementSoapBindingStub.java=UTF-8
