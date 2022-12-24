@@ -32,11 +32,11 @@
    <ns2:parameter qname="ns1:medicalCondition" type="xsd:string"/>
   </ns2:operation>
   <ns1:parameter name="allowedMethods" value="acceptorRegistration"/>
-  <ns1:parameter name="typeMappingVersion" value="1.2"/>
   <ns1:parameter name="wsdlPortType" value="Acceptor"/>
-  <ns1:parameter name="className" value="main.Acceptor"/>
-  <ns1:parameter name="wsdlServicePort" value="Acceptor"/>
+  <ns1:parameter name="typeMappingVersion" value="1.2"/>
   <ns1:parameter name="schemaQualified" value="http://main"/>
+  <ns1:parameter name="wsdlServicePort" value="Acceptor"/>
+  <ns1:parameter name="className" value="main.Acceptor"/>
   <ns1:parameter name="wsdlTargetNamespace" value="http://main"/>
   <ns1:parameter name="wsdlServiceElement" value="AcceptorService"/>
  </ns1:service>
