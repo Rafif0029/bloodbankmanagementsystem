@@ -22,7 +22,7 @@ public class Acceptor {
 	
 
 public String acceptorRegistration(String name, String address,String bloodType, String phone,int quantity,String medicalCondition) {
-if(checkBloodAvailibility(bloodType)>0 && checkBloodAvailibility(bloodType)>=quantity) {
+if(checkBloodAvailibility(bloodType)>=quantity) {
 if(!checkInventory(bloodType)) {
 return "Plz enter the valid bloodtype";
 }
