@@ -19,6 +19,7 @@ String d= request.getParameter("quantity");
 </head>
 <body>
 <%
+		try{
           String name = request.getParameter("name");
           String phone = request.getParameter("phone");
           String address = request.getParameter("address");
@@ -29,6 +30,9 @@ String d= request.getParameter("quantity");
           Donor obj = new DonorProxy().getDonor();
           String result = obj.donorRegistration(name, address, bloodType, phone, quantity,medicalCondition);
           out.println(result);
+		}catch(Exception e){
+			out.println("Enter Data correctly");
+		}
         %>
 </body>
 </html>
